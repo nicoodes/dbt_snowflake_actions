@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: brands
+    description: data from brands
+    columns:
+      - name: brand_code
+        description: brand id
+        tests:
+          - unique
+          - not_null

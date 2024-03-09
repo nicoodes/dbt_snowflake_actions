@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: landing
+    database: DBT_ACTIONS
+    schema: DEFAULT
+    tables:
+      - name: brands
+        description: brands csv data
+      - name: customers
+        description: customers csv data
+      - name: products
+        description: products csv data
+      - name: sales
+        description: sales csv data
